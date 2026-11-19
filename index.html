@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le plateau</title>
+<style>
+  :root{--txt:#171227;--dim:#5b5470;--line:#e9e4f5;--accent:#5b21b6;--hover:#4c1d95;--soft:#ede9fe;--bg:#fbfaff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif}
+  main{max-width:680px;margin:0 auto;padding:40px 16px 64px}
+  .tete{text-align:center;padding:36px 0 18px}
+  .tete h1{font-size:40px;letter-spacing:-.03em;margin:0}
+  .tete p{color:var(--dim);margin:8px 0 22px}
+  a.dl{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+    font-weight:700;padding:14px 26px;border-radius:12px}
+  a.dl:hover{background:var(--hover)}
+  .ver{display:block;color:var(--dim);font-size:13px;margin-top:10px}
+  hr{border:0;border-top:1px solid var(--line);margin:30px 0}
+  h1{font-size:26px;letter-spacing:-.02em;margin:0 0 6px}
+  h2{font-size:19px;margin:34px 0 10px}
+  .sous{color:var(--dim);margin:0 0 8px}
+  ol{padding-left:22px}
+  li{margin:10px 0}
+  .carte{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
+  .attention{border-color:#f3d9a4;background:#fffaf0}
+  b.bouton{display:inline-block;background:var(--soft);color:var(--accent);border-radius:7px;
+    padding:1px 8px;font-weight:650;white-space:nowrap}
+  code{display:block;background:#171227;color:#f4f1ff;border-radius:10px;padding:12px 14px;
+    font:13px/1.5 ui-monospace,Menlo,monospace;overflow-wrap:anywhere;margin:8px 0;user-select:all}
+  small{color:var(--dim)}
+</style>
+</head>
+<body>
+<main>
+  <div class="tete">
+    <h1>Le plateau</h1>
+    <p>Monte tes vidéos UGC et pilote tes deals, sur ton Mac.</p>
+    <a class="dl" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau.dmg">Télécharger pour Mac</a>
+    <span class="ver">Version 0.1 · Mac avec puce Apple (M1 ou plus récent)</span>
+  </div>
+  <hr>
+
+<h1>Installer Le plateau</h1>
+<p class="sous">Pour un Mac avec puce Apple (M1 ou plus récent), macOS 12 ou plus récent.</p>
+
+<div class="carte">
+<ol>
+  <li>Ouvre <b>Le-plateau.dmg</b>, puis glisse <b>Le plateau</b> sur le dossier <b>Applications</b>.</li>
+  <li>Ouvre <b>Le plateau</b> depuis Applications. L'app s'ouvre dans ton navigateur.</li>
+</ol>
+</div>
+
+<h2>Si le Mac bloque l'app (macOS 15 Sequoia et plus récents)</h2>
+<p>La première fois, macOS peut dire qu'il ne peut pas vérifier l'app, parce qu'elle
+ne vient pas de l'App Store. Ça ne se fait qu'une fois :</p>
+<div class="carte">
+<ol>
+  <li>Dans la fenêtre d'avertissement, clique <b class="bouton">Terminé</b>.
+    Surtout pas « Placer dans la corbeille ».</li>
+  <li>Ouvre le menu  (en haut à gauche) → <b>Réglages Système</b> →
+    <b>Confidentialité et sécurité</b>.</li>
+  <li>Descends jusqu'à la partie <b>Sécurité</b>. Tu y vois
+    « Le plateau a été bloqué… ». Clique <b class="bouton">Ouvrir quand même</b>.</li>
+  <li>Confirme avec ton mot de passe ou Touch ID, puis clique encore
+    <b class="bouton">Ouvrir quand même</b>.</li>
+</ol>
+<small>Le bouton « Ouvrir quand même » reste environ une heure après la tentative
+d'ouverture. Si tu ne le vois pas, rouvre l'app une fois (étape 1), puis reviens dans les Réglages.</small>
+</div>
+
+<h2>Sur macOS 14 Sonoma et plus anciens</h2>
+<div class="carte">
+Dans Applications, fais un <b>clic droit</b> (ou Ctrl + clic) sur <b>Le plateau</b>
+→ <b class="bouton">Ouvrir</b> → <b class="bouton">Ouvrir</b>.
+</div>
+
+<h2>Si macOS dit que l'app est « endommagée »</h2>
+<div class="carte attention">
+Ouvre <b>Terminal</b> (Applications → Utilitaires), colle cette ligne, appuie sur Entrée,
+puis rouvre l'app :
+<code>xattr -dr com.apple.quarantine "/Applications/Le plateau.app"</code>
+<small>Elle retire seulement l'étiquette « téléchargé d'internet » de l'app. Rien d'autre ne change.</small>
+</div>
+
+<h2>Ensuite</h2>
+<div class="carte">
+<ul>
+  <li><b>Tes données</b> (campagnes, clips, vidéos) vont dans le dossier
+    <b>Le plateau</b> de ton dossier personnel. Elles ne quittent pas ton Mac.</li>
+  <li><b>L'IA</b> : dans l'app, clique la petite pastille de version à côté du nom,
+    puis <b class="bouton">Connecter Claude</b>. Il faut un abonnement Claude.</li>
+  <li><b>Les sous-titres automatiques</b> : même panneau,
+    <b class="bouton">Activer</b> (un téléchargement de 570 Mo, une seule fois).</li>
+  <li><b>Les mises à jour</b> arrivent d'elles-mêmes : l'app te les propose.</li>
+  <li><b>Pour fermer</b> : même panneau, <b class="bouton">Quitter</b>.</li>
+</ul>
+</div>
+
+</main>
+</body>
+</html>

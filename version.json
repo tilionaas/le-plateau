@@ -1,6 +1,6 @@
 {
- "version": "0.4",
- "zip": "app-0.4.zip",
- "sha256": "3826db83e2567dd6c7eb365a7367fdd68c4c927d1eebea085ccd3393834ced26",
- "notes": "Monteur IA toujours visible : il mène à « Connecter Claude ». La page Accès n'apparaît plus."
+ "version": "0.5",
+ "zip": "app-0.5.zip",
+ "sha256": "8544da6520a3f744e8887c72a35f162cd1e14114253eaaea8fbf49f0acf4f2c0",
+ "notes": "Windows : « Connecter Claude » installe vraiment Claude Code."
 }

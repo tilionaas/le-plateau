@@ -1,6 +1,6 @@
 {
- "version": "0.1",
- "zip": "app-0.1.zip",
- "sha256": "edf360d17db6263ce750ee2a80ac788336bf6a5c4d9b5cf3caa4e776aad9a313",
- "notes": "Première version publique."
+ "version": "0.2",
+ "zip": "app-0.2.zip",
+ "sha256": "356d1fca4e04591a3d520e4bb6b62af756d280f38679fd111b036a63cbbd8c00",
+ "notes": "Version Windows, et petites corrections."
 }

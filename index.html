@@ -16,6 +16,11 @@
   a.dl{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
     font-weight:700;padding:14px 26px;border-radius:12px}
   a.dl:hover{background:var(--hover)}
+  .dls{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  a.dl.second{background:#fff;color:var(--accent);border:1px solid var(--accent)}
+  a.dl.second:hover{background:var(--soft)}
+  .os{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--accent);margin:26px 0 4px}
   .ver{display:block;color:var(--dim);font-size:13px;margin-top:10px}
   hr{border:0;border-top:1px solid var(--line);margin:30px 0}
   h1{font-size:26px;letter-spacing:-.02em;margin:0 0 6px}
@@ -37,13 +42,19 @@
   <div class="tete">
     <h1>Le plateau</h1>
     <p>Monte tes vidéos UGC et pilote tes deals, sur ton Mac.</p>
-    <a class="dl" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau.dmg">Télécharger pour Mac</a>
-    <span class="ver">Version 0.1 · Mac avec puce Apple (M1 ou plus récent)</span>
+    <div class="dls">
+      <a class="dl" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau.dmg">Télécharger pour Mac</a>
+      <a class="dl second" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau-Windows.zip">Télécharger pour Windows</a>
+    </div>
+    <span class="ver">Version 0.2 · Mac avec puce Apple (M1 ou plus récent) · Windows 10 ou 11 (64 bits)</span>
   </div>
   <hr>
+<span class="os">Mac</span>
 
 <h1>Installer Le plateau</h1>
-<p class="sous">Pour un Mac avec puce Apple (M1 ou plus récent), macOS 12 ou plus récent.</p>
+<p class="sous">Pour un Mac avec puce Apple (M1 ou plus récent), macOS 12 ou plus récent.
+Pour savoir : menu  → <b>À propos de ce Mac</b>. Si la ligne dit « Puce Apple M… », c'est bon ;
+si elle dit « Processeur Intel », l'app ne pourra pas s'ouvrir sur ce Mac.</p>
 
 <div class="carte">
 <ol>
@@ -95,6 +106,60 @@ puis rouvre l'app :
     <b class="bouton">Activer</b> (un téléchargement de 570 Mo, une seule fois).</li>
   <li><b>Les mises à jour</b> arrivent d'elles-mêmes : l'app te les propose.</li>
   <li><b>Pour fermer</b> : même panneau, <b class="bouton">Quitter</b>.</li>
+</ul>
+</div>
+
+<hr>
+<span class="os">Windows</span>
+
+<h1>Installer Le plateau sur Windows</h1>
+<p class="sous">Pour un PC Windows 10 ou 11 (64 bits).</p>
+
+<div class="carte">
+<ol>
+  <li>Avant d'ouvrir le fichier téléchargé <b>Le-plateau-Windows.zip</b> :
+    fais un <b>clic droit</b> dessus → <b>Propriétés</b>. En bas, coche
+    <b class="bouton">Débloquer</b>, puis <b class="bouton">OK</b>.
+    <small>(S'il n'y a pas de case « Débloquer », passe à l'étape suivante.)</small></li>
+  <li>Clic droit sur le fichier → <b class="bouton">Extraire tout…</b> → choisis un endroit,
+    par exemple <b>Documents</b> → <b class="bouton">Extraire</b>.</li>
+  <li>Ouvre le dossier <b>Le plateau</b>, puis double-clique sur <b>Le plateau</b>
+    (le fichier « .bat »). L'app s'ouvre dans ton navigateur.</li>
+</ol>
+<small>Pour l'avoir sur le bureau : clic droit sur « Le plateau » → Afficher plus d'options →
+Envoyer vers → Bureau (créer un raccourci).</small>
+</div>
+
+<h2>Si Windows bloque l'app</h2>
+<div class="carte">
+Si une fenêtre bleue dit <b>« Windows a protégé votre ordinateur »</b> : clique
+<b class="bouton">Informations complémentaires</b>, puis
+<b class="bouton">Exécuter quand même</b>. Ça ne se fait qu'une fois.
+<br><small>L'app ne vient pas du Microsoft Store, c'est pour ça que Windows prévient.</small>
+</div>
+
+<h2>Si ton antivirus la met de côté</h2>
+<div class="carte attention">
+Ouvre ton antivirus (ou <b>Sécurité Windows</b> → Protection contre les virus et menaces →
+Historique de protection), retrouve <b>Le plateau</b> et choisis <b class="bouton">Autoriser</b>.
+Puis extrais le zip de nouveau.
+</div>
+
+<h2>Ensuite</h2>
+<div class="carte">
+<ul>
+  <li><b>Ton code d'accès</b> : l'app le demande à la première ouverture. Il ne marche
+    que sur un seul ordinateur.</li>
+  <li><b>Tes données</b> (campagnes, clips, vidéos) vont dans le dossier
+    <b>Le plateau</b> de ton dossier personnel. Elles ne quittent pas ton PC.</li>
+  <li><b>L'IA</b> : dans l'app, clique la petite pastille de version à côté du nom,
+    puis <b class="bouton">Connecter Claude</b>. Il faut un abonnement Claude.</li>
+  <li><b>Les sous-titres automatiques</b> : même panneau,
+    <b class="bouton">Activer</b> (570 Mo, une seule fois).</li>
+  <li><b>Les mises à jour</b> arrivent d'elles-mêmes.</li>
+  <li><b>Pour fermer</b> : même panneau, <b class="bouton">Quitter</b>.</li>
+  <li>Sur Windows, l'incrustation de ta tête détourée n'est pas disponible, et un contrat
+    se colle en texte plutôt qu'en fichier.</li>
 </ul>
 </div>
 

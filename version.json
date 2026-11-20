@@ -1,6 +1,6 @@
 {
- "version": "0.2",
- "zip": "app-0.2.zip",
- "sha256": "02a0910c79e42e6dba6cf7674826b213a3f0e31d706e34c8c164559d46d08bf5",
- "notes": "Version Windows, et petites corrections."
+ "version": "0.3",
+ "zip": "app-0.3.zip",
+ "sha256": "54ddf1ea35684487189d96193e5603d64f5d048fdc1283b189558e0afeeda397",
+ "notes": "Correction : la page Accès n'apparaît plus dans l'app."
 }

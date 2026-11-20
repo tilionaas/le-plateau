@@ -1,6 +1,6 @@
 {
- "version": "0.3",
- "zip": "app-0.3.zip",
- "sha256": "54ddf1ea35684487189d96193e5603d64f5d048fdc1283b189558e0afeeda397",
- "notes": "Correction : la page Accès n'apparaît plus dans l'app."
+ "version": "0.4",
+ "zip": "app-0.4.zip",
+ "sha256": "3826db83e2567dd6c7eb365a7367fdd68c4c927d1eebea085ccd3393834ced26",
+ "notes": "Monteur IA toujours visible : il mène à « Connecter Claude ». La page Accès n'apparaît plus."
 }

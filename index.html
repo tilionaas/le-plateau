@@ -16,7 +16,16 @@
   a.dl{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
     font-weight:700;padding:14px 26px;border-radius:12px}
   a.dl:hover{background:var(--hover)}
-  .dls{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .choix{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 0 14px;text-align:left}
+  @media (max-width:640px){.choix{grid-template-columns:1fr}}
+  a.carteDl{display:block;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:16px 16px 14px;
+    text-decoration:none;color:var(--txt);transition:border-color .15s,transform .15s}
+  a.carteDl:hover{border-color:var(--accent);transform:translateY(-1px)}
+  a.carteDl b{display:block;font-size:18px;letter-spacing:-.01em;color:var(--accent);margin-bottom:4px}
+  a.carteDl b::after{content:" ↓";font-weight:600}
+  a.carteDl span{display:block;font-size:14px;font-weight:600}
+  a.carteDl i{display:block;font-style:normal;font-size:13px;color:var(--dim);margin-top:2px}
+  .pasSur{font-size:14px;color:var(--dim);margin:0 0 4px}
   a.dl.second{background:#fff;color:var(--accent);border:1px solid var(--accent)}
   a.dl.second:hover{background:var(--soft)}
   .os{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
@@ -42,19 +51,25 @@
   <div class="tete">
     <h1>Le plateau</h1>
     <p>Monte tes vidéos UGC et pilote tes deals, sur ton Mac.</p>
-    <div class="dls">
-      <a class="dl" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau.dmg">Télécharger pour Mac</a>
-      <a class="dl second" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau-Windows.zip">Télécharger pour Windows</a>
+    <div class="choix">
+      <a class="carteDl" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau.dmg">
+        <b>Mac</b><span>Puce Apple : M1, M2, M3, M4…</span><i>Mac de 2021 et plus récents</i></a>
+      <a class="carteDl" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau-Intel.dmg">
+        <b>Mac Intel</b><span>Processeur Intel</span><i>Mac plus vieux (avant 2021)</i></a>
+      <a class="carteDl" href="https://github.com/tilionaas/le-plateau/releases/latest/download/Le-plateau-Windows.zip">
+        <b>Windows</b><span>Windows 10 ou 11</span><i>PC 64 bits</i></a>
     </div>
-    <span class="ver">Version 0.2 · Mac avec puce Apple (M1 ou plus récent) · Windows 10 ou 11 (64 bits)</span>
+    <p class="pasSur">Pas sûr de ton Mac ? Menu  → <b>À propos de ce Mac</b>.
+      « Puce Apple M… » : bouton <b>Mac</b>. « Processeur Intel » : bouton <b>Mac Intel</b>.</p>
+    <span class="ver">Version 0.2</span>
   </div>
   <hr>
 <span class="os">Mac</span>
 
 <h1>Installer Le plateau</h1>
-<p class="sous">Pour un Mac avec puce Apple (M1 ou plus récent), macOS 12 ou plus récent.
-Pour savoir : menu  → <b>À propos de ce Mac</b>. Si la ligne dit « Puce Apple M… », c'est bon ;
-si elle dit « Processeur Intel », l'app ne pourra pas s'ouvrir sur ce Mac.</p>
+<p class="sous">macOS 12 ou plus récent.
+Pour savoir quelle version prendre : menu  → <b>À propos de ce Mac</b>.
+« Puce Apple M… » : la version <b>Mac</b>. « Processeur Intel » : la version <b>Mac Intel</b>.</p>
 
 <div class="carte">
 <ol>
@@ -100,6 +115,7 @@ puis rouvre l'app :
 <ul>
   <li><b>Tes données</b> (campagnes, clips, vidéos) vont dans le dossier
     <b>Le plateau</b> de ton dossier personnel. Elles ne quittent pas ton Mac.</li>
+  <li>Sur un <b>Mac Intel</b>, les sous-titres automatiques sont plus lents à fabriquer.</li>
   <li><b>L'IA</b> : dans l'app, clique la petite pastille de version à côté du nom,
     puis <b class="bouton">Connecter Claude</b>. Il faut un abonnement Claude.</li>
   <li><b>Les sous-titres automatiques</b> : même panneau,

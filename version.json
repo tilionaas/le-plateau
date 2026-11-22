@@ -1,6 +1,6 @@
 {
- "version": "0.6",
- "zip": "app-0.6.zip",
- "sha256": "7a03547b60853dc20f5febb49ed2f1111d75b8e62af48e4ca6dc7543a1e73aba",
- "notes": "Décris ton montage dans la série (Claude regarde tes clips), coupe des silences, script mot pour mot, Mes fonctionnalités, interface allégée."
+ "version": "0.7",
+ "zip": "app-0.7.zip",
+ "sha256": "1e38e5b802d97fefd3450dac3ed222c72b04be0c3b45a0a46c8685cb36e00939",
+ "notes": "Statut par campagne en bulle sur la vue d'ensemble, aura orange pendant le warmup d'une nouvelle campagne, bulles plus visibles."
 }

@@ -1,6 +1,6 @@
 {
- "version": "0.5",
- "zip": "app-0.5.zip",
- "sha256": "8544da6520a3f744e8887c72a35f162cd1e14114253eaaea8fbf49f0acf4f2c0",
- "notes": "Windows : « Connecter Claude » installe vraiment Claude Code."
+ "version": "0.6",
+ "zip": "app-0.6.zip",
+ "sha256": "7a03547b60853dc20f5febb49ed2f1111d75b8e62af48e4ca6dc7543a1e73aba",
+ "notes": "Décris ton montage dans la série (Claude regarde tes clips), coupe des silences, script mot pour mot, Mes fonctionnalités, interface allégée."
 }

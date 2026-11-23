@@ -1,6 +1,6 @@
 {
- "version": "0.7",
- "zip": "app-0.7.zip",
- "sha256": "1e38e5b802d97fefd3450dac3ed222c72b04be0c3b45a0a46c8685cb36e00939",
- "notes": "Statut par campagne en bulle sur la vue d'ensemble, aura orange pendant le warmup d'une nouvelle campagne, bulles plus visibles."
+ "version": "0.8",
+ "zip": "app-0.8.zip",
+ "sha256": "3deb522a18f7b485ce3e73eb668e0c70252b9c6af741a38436e40b437bf409ca",
+ "notes": "Le monteur, c'est Claude : écran simple par série (vidéo exemple, parties à filmer avec l'extrait à recopier, précisions), mode « Montage on the spot », zooms et transitions lus dans l'exemple, le plateau sur ton téléphone (même wifi), campagnes en pause repliées, sécurité renforcée."
 }

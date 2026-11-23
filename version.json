@@ -1,6 +1,6 @@
 {
- "version": "0.9",
- "zip": "app-0.9.zip",
- "sha256": "d0277af8d3cd5a4a9f0bb3b9961ba6f4d289869fecce96e15258a64d363bb49f",
- "notes": "Le QR du téléphone marche maintenant aussi sur Windows, et une série toute neuve reste utilisable depuis le téléphone quand Claude n'est pas connecté."
+ "version": "0.10",
+ "zip": "app-0.10.zip",
+ "sha256": "c65e1d32bd7216a92729bdb9e1f2b95d530918bb6eb5de5c3e19a5781d070973",
+ "notes": "Pose une question sur ta campagne : la réponse vient du brief et du contrat, avec le passage cité. Les briefs Notion sont mieux lus (tableaux, liens cachés, titres de 4e niveau)."
 }

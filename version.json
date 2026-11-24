@@ -1,6 +1,6 @@
 {
- "version": "0.10",
- "zip": "app-0.10.zip",
- "sha256": "c65e1d32bd7216a92729bdb9e1f2b95d530918bb6eb5de5c3e19a5781d070973",
- "notes": "Pose une question sur ta campagne : la réponse vient du brief et du contrat, avec le passage cité. Les briefs Notion sont mieux lus (tableaux, liens cachés, titres de 4e niveau)."
+ "version": "0.11",
+ "zip": "app-0.11.zip",
+ "sha256": "73abb2d45e6fad20051acb11309562652ff9cb4c7600e802d18a8788f3ec95c9",
+ "notes": "Le monteur regarde maintenant tes clips en même temps que la vidéo exemple : il décide du montage avec ce que tu as filmé et range chaque clip lui-même (« Déposer tous les clips », ou « Refaire le montage » sur une série déjà créée). Il choisit aussi le bon bout de chaque clip : plus l'installation de la caméra au début ni la fin où tu viens l'arrêter, et tu peux lui dire lequel garder (« prends juste le moment où je lève les bras »). Split screen : plusieurs clips se relaient en haut et s'enchaînent en bas (le match, puis la démo), chacun avec sa voix ; le début de ta réaction se cale sur le moment fort du clip du bas et les textes du milieu suivent l'écran. Quand tu décris ton montage, il reprend ta demande point par point et se relit avant de répondre « c'est fait ». Une carte « Clips déposés » montre tous tes clips : glisse un clip mal rangé dans la bonne partie, ou clique le × pour le supprimer (il va à la corbeille), et une jauge à côté du bouton dit combien de combinaisons il te reste. Corrections : le bouton « Lancer la génération » restait grisé sur une série split, le texte d'accroche d'un split sortait écrit deux fois, et une vidéo exemple en une seule prise n'est plus découpée en plusieurs parties. Tu peux aussi dire au monteur qu'une partie est accélérée (« la partie 2 en ×1,5 »)."
 }

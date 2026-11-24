@@ -1,6 +1,6 @@
 {
- "version": "0.13",
- "zip": "app-0.13.zip",
- "sha256": "c75950a7c1b71fe39c4f8647ae0823f2bb6995a1812217a24ca785574c5ea7e2",
- "notes": "Nouveau : tu peux déposer un clip directement dans une partie (« Déposer ici »), même s'il ne ressemble pas à la vidéo exemple ; le monteur ne refuse plus un clip parce qu'il est différent, et tu peux lui dire où il va (« mets ce clip dans la partie 2 »). En split screen, la synchro est mesurée dans le son et l'image : ta réaction part pile sur le moment fort du clip du bas, et le haut change au même instant que le bas. Le calage se fait tout seul avant chaque montage. Tu peux dire au monteur « connecte Buffer pour cette campagne » : il répond oui ou non, et te guide étape par étape s'il manque une clé. Aussi depuis la 0.11 : le monteur regarde tes clips avec la vidéo exemple et les range, il garde le bon bout de chaque clip, plusieurs clips peuvent se suivre en haut et en bas, la carte « Clips déposés » (glisser un clip dans une autre partie, × pour supprimer), la jauge des combinaisons restantes et l'historique de la conversation avec le monteur."
+ "version": "0.14",
+ "zip": "app-0.14.zip",
+ "sha256": "65c83f515d7c1823fd8bcb7f99d8611e17290862b8ecd8e299aaff67722234bf",
+ "notes": "Le plateau fait beaucoup moins d'appels à Buffer : seulement ceux qui envoient tes vidéos, plus quelques-uns par jour. Ton quota Buffer dure donc bien plus longtemps, surtout sur le forfait gratuit. Si tu viens de brancher un nouveau compte Instagram dans Buffer, clique « Revérifier » ou dis au monteur « connecte Buffer sur @compte ». Aussi depuis la 0.13 : « Déposer ici » sur chaque partie, les clips différents de l'exemple ne sont plus refusés, la synchro du split screen est mesurée dans le son et l'image, et le monteur peut brancher Buffer et te guider pour les clés."
 }

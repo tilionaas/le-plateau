@@ -1,6 +1,6 @@
 {
- "version": "0.15",
- "zip": "app-0.15.zip",
- "sha256": "8076cb441652c512a9a9c798c3d0cf709633d22daaddc85a49f3e98cfed52beb",
- "notes": "Le monteur choisit bien mieux les bons moments de tes clips : fini les bouts où tu installes la caméra ou où t'es pas encore dans l'ambiance (il regarde une image tous les quarts de seconde et revoit tout seul tes clips déjà déposés à ta prochaine génération). Quand un clip l'oblige à mal faire (trop court, réaction trop tôt), il te l'écrit dans « Précisions pour le monteur » avec quoi refilmer. Déposer des clips marche partout : sur une partie entière, à côté, ou un dossier complet. La page ne remonte plus en haut quand tu modifies quelque chose, le volume de la musique s'enregistre pendant que tu glisses, et une nouvelle option « Sans bande au milieu » existe pour le split screen (Avancé, Réglages)."
+ "version": "0.16",
+ "zip": "app-0.16.zip",
+ "sha256": "2bd5ab2e5f07dc95711eb4c33cdc12e1c51a279938fb0589d67585e60180d79b",
+ "notes": "Tu peux maintenant couper toi-même le début et la fin de n'importe quel clip : des ciseaux sur chaque vignette ouvrent une fenêtre avec l'aperçu, une pellicule, l'onde du son et deux poignées, et l'image suit ta main sans traîner (les flèches avancent d'une image). Ta coupe fait foi : le monteur ne repasse plus dessus. Ça marche pour tous les clips, y compris celui du bas d'un split screen et la prise d'une série « on the spot ». En split, tu poses aussi dans la même fenêtre la réaction (clips du haut) et le moment fort (clips du bas), les deux instants qui doivent tomber ensemble."
 }

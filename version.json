@@ -1,6 +1,6 @@
 {
- "version": "0.16",
- "zip": "app-0.16.zip",
- "sha256": "2bd5ab2e5f07dc95711eb4c33cdc12e1c51a279938fb0589d67585e60180d79b",
- "notes": "Tu peux maintenant couper toi-même le début et la fin de n'importe quel clip : des ciseaux sur chaque vignette ouvrent une fenêtre avec l'aperçu, une pellicule, l'onde du son et deux poignées, et l'image suit ta main sans traîner (les flèches avancent d'une image). Ta coupe fait foi : le monteur ne repasse plus dessus. Ça marche pour tous les clips, y compris celui du bas d'un split screen et la prise d'une série « on the spot ». En split, tu poses aussi dans la même fenêtre la réaction (clips du haut) et le moment fort (clips du bas), les deux instants qui doivent tomber ensemble."
+ "version": "0.17",
+ "zip": "app-0.17.zip",
+ "sha256": "36c7bb0a92ff50ecc49a04c5e4e29b57a9b5cba6cd880f071961d790902d4f1f",
+ "notes": "Le plateau t'explique maintenant ce qu'il fait. À la première ouverture, un écran de bienvenue dit ce que c'est et comment ça marche en quatre étapes. Ensuite, la première fois que tu passes sur un écran (vue d'ensemble, campagne, série, une vidéo par jour, file d'attente), une petite carte en haut résume quoi y faire en quelques points ; « J'ai compris » la range pour de bon, et « Ne plus afficher les aides » les range toutes. L'écran vide te dit aussi par où commencer : une campagne d'abord. Autre changement : en envoi automatique, deux vidéos d'un même compte ont toujours au moins 25 minutes d'écart."
 }

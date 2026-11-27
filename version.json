@@ -1,6 +1,6 @@
 {
- "version": "0.17",
- "zip": "app-0.17.zip",
- "sha256": "36c7bb0a92ff50ecc49a04c5e4e29b57a9b5cba6cd880f071961d790902d4f1f",
- "notes": "Le plateau t'explique maintenant ce qu'il fait. À la première ouverture, un écran de bienvenue dit ce que c'est et comment ça marche en quatre étapes. Ensuite, la première fois que tu passes sur un écran (vue d'ensemble, campagne, série, une vidéo par jour, file d'attente), une petite carte en haut résume quoi y faire en quelques points ; « J'ai compris » la range pour de bon, et « Ne plus afficher les aides » les range toutes. L'écran vide te dit aussi par où commencer : une campagne d'abord. Autre changement : en envoi automatique, deux vidéos d'un même compte ont toujours au moins 25 minutes d'écart."
+ "version": "0.18",
+ "zip": "app-0.18.zip",
+ "sha256": "511cd8d6e091572d7d9c09b86b9df872d023096876efb189110adc2676f764f7",
+ "notes": "Le montage « on the spot » suit maintenant vraiment ta vidéo exemple. Le plateau relève ce qui est posé par-dessus la personne (captures et vidéos de l'app, autocollants, logo, slogan, code) et le repose sur ta prise au même endroit, au moment où tu dis les mêmes mots ; un code promo est réécrit avec le tien. Les sous-titres prennent la forme de ceux de l'exemple. Les coupes sont refaites : seule la dernière bonne version de chaque phrase reste, les blancs partent, sans morceau muet ni mot coupé. En déposant l'exemple, le plateau t'écrit aussi ton script (« Ton script »). Nouveau partout : une case « Consignes au monteur » (nouvelle série, nouvelle campagne, vidéo exemple) pour lui dire d'avance ce que tu veux ou ne veux pas ; « Précisions pour le monteur » est une vraie conversation qui se souvient du fil. Tu peux retirer une vidéo exemple ou une prise (elles vont à la Corbeille), voir une vidéo montée en grand, et une vidéo ouverte ne fige plus la page. Sous Windows, les accents ne sortent plus en « Ã », et le message « Claude Code n'est pas connecté » dit quoi taper."
 }
